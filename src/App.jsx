@@ -12,7 +12,7 @@ export default function App() {
 
   //autofocus
   useEffect(() => {
-    password.current.focus();
+    name.current.focus();
   }, []);
   return (
     <>
