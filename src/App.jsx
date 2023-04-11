@@ -12,7 +12,8 @@ export default function App() {
 
   //autofocus
   useEffect(() => {
-    password.current.focus();
+    //changed focus from password field to userName field
+    name.current.focus();
   }, []);
   return (
     <>
